@@ -1,6 +1,7 @@
 import sqlite3 as s
 
-con = s.connector('my-test.db')
+con = s.connect('store.db')
+cur = con.cursor()
 
 user = ("""
     CREATE TABLE USER (
@@ -10,5 +11,7 @@ user = ("""
     );
 """)
 
-with con:
-    con.execute(user)
+cur.execute(user)
+
+con.commit()
+con.close()
