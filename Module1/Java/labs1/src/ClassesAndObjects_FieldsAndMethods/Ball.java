@@ -20,6 +20,15 @@ public class Ball {
 	}
 	
 	public void move() {
+		if (x < 0) {
+			x = 0;
+			dirX = -dirX;
+		}
+		if (y > 0) {
+			y = 0;
+			dirY = -dirY;
+		}
+		
 		x += dirX;
 		y += dirY;
 		System.out.println(x);
