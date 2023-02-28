@@ -10,8 +10,14 @@ public class Lab5 {
 		return s.nextInt();
 	}
 	
+	public String getString(String prompt) {
+		System.out.println(prompt);
+		Scanner s = new Scanner(System.in);
+		return s.nextLine();
+	}
+	
 	public void grades() {
-		int examMark = getInt("What is your exam mark?\n");
+		int examMark = getInt("What is your exam mark?");
 		if (examMark < 1 || examMark > 100) {
 			System.out.println("Error: Marks must be between 1 - 100. Try again!");
 		} else if  (examMark > 70) {
@@ -23,6 +29,17 @@ public class Lab5 {
 		} else {
 			System.out.println("Fail");
 		}
+	}
+	
+	public void eveningBehaviours() {
+		String question = getString("Is this summertime?");
+		boolean isSummertime = false;
+		
+		if (question == "yes") {
+			isSummertime = true;
+		}
+		System.out.println(isSummertime);
+		
 	}
 
 	
