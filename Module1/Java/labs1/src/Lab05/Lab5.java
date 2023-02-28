@@ -32,13 +32,34 @@ public class Lab5 {
 	}
 	
 	public void eveningBehaviours() {
-		String question = getString("Is this summertime?");
 		boolean isSummertime = false;
+		boolean isSunnyEvening = false;
 		
-		if (question == "yes") {
-			isSummertime = true;
+		String question1 = getString("Is this summertime?");
+		String question2 = getString("Is this summertime?");
+		
+		if (question1.equals("yes"))
+			isSummertime = !isSummertime;
+		
+		if (question2.equals("yes"))
+			isSunnyEvening = !isSunnyEvening;
+		
+		if (isSummertime && isSunnyEvening) {
+			System.out.println("Take a shower, eat outside, do outdoor hobby and contact friend");
+		} else if (isSummertime && !isSunnyEvening) {
+			System.out.println("Take a shower, eat inside, do outdoor hobby and contact friend");
+
+		} else if (!isSummertime && isSunnyEvening) {
+			System.out.println("Take a shower, eat inside, take a walk and contact friend");
+
+		} else if (!isSummertime && !isSunnyEvening) {
+			System.out.println("Take a shower, eat inside and contact friend");
+
 		}
-		System.out.println(isSummertime);
+			
+		
+		//System.out.println(isSummertime);
+		//System.out.println(isSunnyEvening);
 		
 	}
 
