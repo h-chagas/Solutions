@@ -4,8 +4,8 @@ public class Car {
 	public String model;
 	public int speed;
 	
-	//constructor
-	public Car(String model, int speed){
+	
+	public Car(String model, int speed){ //constructor
 		this.model = model;
 		this.speed = speed;
 	}
@@ -16,26 +16,30 @@ public class Car {
 	}
 	
 	public void getModel() {
-		System.out.println("The model of this car is " + this.model);
+		System.out.println("The model of this car is a STANDARD " + this.model);
 	}
 	
 	public void getSpeed() {
 		System.out.println("The speed is " + this.speed);
 	}
 	
-	public void getToSixty(int speed) {
-		this.speed = speed;
+	public void getToSixty() {
+		this.speed = 60;
 		System.out.println("I am speeding to 60");
 	}
 	
 	public void setModel(String model) {
 		if (model.length() > 2)
 			this.model = model;
+		else 
+			System.out.println("Model name should contain more than 2 characters");
 	}
 	
 	public void setSpeed(int speed) {
 		if (speed > 0)
 			this.speed = speed;
+		else
+			System.out.println("Speed must be more than 0");
 	}
 	
 }

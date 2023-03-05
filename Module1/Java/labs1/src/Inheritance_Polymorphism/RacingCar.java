@@ -1,18 +1,17 @@
 package Inheritance_Polymorphism;
 
 public class RacingCar extends Car {
-	
 	public String driver;
 	public int turboFactor;
 	
-	//constructor
-	public RacingCar(String model, int speed, String driver, String turboFactor) {
+	
+	public RacingCar(String model, int speed, String driver, int turboFactor) { //constructor
 		super(model, speed);
 	}
 	
 	public void accelerate() {
-		this.speed = this.speed * this.turboFactor;
 		super.accelerate(speed);
+		this.speed = this.speed * this.turboFactor;
 	}
 	
 	public void getDriver() {
@@ -20,7 +19,7 @@ public class RacingCar extends Car {
 	}
 	
 	public void getModel() {
-		System.out.println("The model of this car is " + this.model);
+		System.out.println("The model of this car is A RACING " + this.model);
 	}
 	
 	public void getTurboFactor() {
@@ -28,9 +27,9 @@ public class RacingCar extends Car {
 	}
 	
 	public void setDriver(String driver) {
-		if (driver.length() > 2)
+//		if (driver.length() > 2)
 			this.driver = driver;
-		else System.out.println("The driver name should contain at least 3 letters");
+//		else System.out.println("The driver name should contain at least 3 letters");
 	}
 	
 	public void setTurboFactor(int turboFactor) {
