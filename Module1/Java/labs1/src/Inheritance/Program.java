@@ -11,9 +11,32 @@ public class Program {
 		s.getColour();
 		s.getPosition();
 		
+		System.out.println("\n");
 		Rectangle r = new Rectangle(new Point(0,0), Color.GREEN, 10, 10);
-		r.getArea();
-		r.getCircumference();
+		r.getColour();
+		r.getPosition();
+//		r.getArea();
+//		r.getCircumference();
+		r.getCharacteristics();
+		
+		System.out.println("\n");
+		Circle c = new Circle(new Point(4,5), Color.BLUE, 14);
+		c.getColour();
+		c.getPosition();
+		c.setRadius(10);
+//		c.getRadius();
+//		c.getArea();
+//		c.getCircumference();
+//		c.getDiameter();
+		c.printCharacteristics();
+		
+		System.out.println("\n");
+		Sphere sph = new Sphere(new Point(0,0), Color.PINK, 15);
+		sph.setRadius(10);
+		sph.getColour();
+//		sph.getPosition();
+//		sph.getVolume();
+		sph.printCharacteristics();
 
 	}
 
