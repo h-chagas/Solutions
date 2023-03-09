@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a Course</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            margin: 5px 0;
+        }
+        
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./images/logo-2.png" alt="QA Corporate Logo">
+        <h1 style="background-image:url(images/trainer.jpg); padding: 4em 1em; color: white; background-size: cover">Course Registration</h1> 
+    </header>
+    
+    <form>
+
+        <fieldset>
+            <legend>Your details</legend>
+            <ul>
+
+                <li>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" autofocus>
+                </li>
+                
+                <li>
+                    <label for="surname">Surname</label>
+                    <input type="text" name="surname">
+                </li>
+                
+                <li>
+                    <label for="positionRole">Position / Role</label>
+                    <input type="text" name="positionRole">
+                </li>
+
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="you@domain.com" required>
+                </li>
+
+                <li>
+                    <label for="phone">Email</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Eg. +447500000000" required>
+                </li>
+
+                <li>
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date">
+                </li>
+
+            </ul>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Course details</legend>
+            
+            <ul>
+                <li>
+                    <select name="drop1" id="1">
+                        <option value="0">Programming with JavaScript</option>
+                        <option value="1">Developing Web Applications using HTML5</option>
+                        <option value="2">Developing Responsive Websites</option>
+                        <option value="3">Leveraging the Power of jQuery</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="delegates">Number of delegates: </label>
+                    <input type="number" name="delegates" id="delegates">
+                </li>
+            </ul>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Submit</legend>
+            <input type="button" value="submit">
+        </fieldset>
+
+
+    </form>
+    
+</body>
+</html>
