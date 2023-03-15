@@ -1,0 +1,18 @@
+{
+    "result": [
+        {
+            "id": 1,
+            "home": "React Rangers",
+            "away": "Angular Athletic",
+            "homeScore": 2,
+            "awayScore": 0
+        },
+        {
+            "id": 2,
+            "home": "Hugo Chagas",
+            "away": "Milena Flores",
+            "homeScore": 40,
+            "awayScore": 80
+        }
+    ]
+}
