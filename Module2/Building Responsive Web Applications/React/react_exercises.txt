@@ -1,0 +1,16 @@
+Conditional Rendering:
+https://stackblitz.com/edit/react-example-conditional-rendering?file=src%2FApp.jsx,src%2Fcomponents%2FTodoItem.jsx
+https://stackblitz.com/edit/react-exercise-conditional-rendering?file=src%2Fcomponents%2FItemCard.jsx,src%2FApp.jsx,src%2Fstyle.css
+
+Demo Rendering:
+https://stackblitz.com/edit/react-demo-rendering-lists-k2amir?file=src%2FApp.jsx,src%2Fcomponents%2FTodoItem.jsx,src%2Ftodos.json
+
+Render a list from data:
+https://stackblitz.com/edit/react-exercise-render-a-list-from-data-haatht?file=src%2Fcomponents%2FItemCard.jsx,src%2FApp.jsx,src%2FitemsData.json
+
+Static routing:
+https://stackblitz.com/edit/react-example-simple-static-routing?file=src%2FApp.jsx
+https://stackblitz.com/edit/react-exercise-use-react-router-static-routing-r5cflu?file=package.json,src%2FApp.jsx,src%2Fcomponents%2FNavbar.jsx,src%2Fpages%2FHomePage.jsx,src%2Fstyle.css
+
+CSS Modules:
+https://stackblitz.com/edit/demo-css-modules-44ujdu?file=src%2FApp.jsx,src%2Fcomponents%2FMainContent.jsx,src%2Fcomponents%2FMainContent.module.css
