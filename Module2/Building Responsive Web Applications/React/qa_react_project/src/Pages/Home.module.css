@@ -1,0 +1,54 @@
+.home {
+    margin: 0 auto;
+    color: rgb(81, 114, 79);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .firstContainer {
+    margin-bottom: 40px;
+  }
+  
+  .h2 {
+    font-size: 2rem;
+  }
+  
+  .p {
+    margin: 1.2em 0;
+  }
+  
+  .divBtn {
+    text-align: center;
+    
+  } 
+  
+  .btn {
+    border: none;
+    padding: 5px 80px;
+    color: white;
+    background-color: rgb(81, 114, 79);
+  }
+  
+  .img {
+    margin: 0 auto;
+    min-width: 200px;
+    /* max-width: 400px; */
+    
+  }
+
+
+  @media (min-width: 1100px) {
+    .home {
+      flex-direction: row;
+      max-width: 1080px; 
+    }
+
+    .firstContainer {
+        margin-right: 50px;
+    }
+
+    .img {
+        margin-left: 50px;
+    }
+  }
