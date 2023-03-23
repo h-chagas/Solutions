@@ -1,10 +1,10 @@
 import React from 'react';
 import Card from '../Card/Card';
 import styles from './CardsArea.module.css';
-import db from '../../db.json'
+// import db from '../../db.json'
 
-const CardsArea = ({imageUrl, name, price}) => {
-  const plantsCards = db.map((plant) => {
+const CardsArea = ({plantApi}) => {
+  const plantsCards = plantApi.map((plant) => {
     return (
       <Card
         name={plant.name}
