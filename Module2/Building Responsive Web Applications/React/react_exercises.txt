@@ -1,3 +1,6 @@
+Important note: All this exercises were resolved by me, however they don't record the answer in it.
+-*-*-*- To obtain the ANSWERS, change the word exercise in the URL to SOLUTION! -*-*-*-
+
 Conditional Rendering:
 https://stackblitz.com/edit/react-example-conditional-rendering?file=src%2FApp.jsx,src%2Fcomponents%2FTodoItem.jsx
 https://stackblitz.com/edit/react-exercise-conditional-rendering?file=src%2Fcomponents%2FItemCard.jsx,src%2FApp.jsx,src%2Fstyle.css
