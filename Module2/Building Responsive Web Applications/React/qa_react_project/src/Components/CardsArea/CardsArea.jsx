@@ -1,15 +1,12 @@
 import React from 'react';
 import Card from '../Card/Card';
 import styles from './CardsArea.module.css';
-// import db from '../../db.json'
 
 const CardsArea = ({plantApi}) => {
   const plantsCards = plantApi.map((plant) => {
     return (
       <Card
-        name={plant.name}
-        price={plant.price}
-        imageUrl={plant.imageUrl}
+        {...plant}
         key={plant.id}
      />
     )

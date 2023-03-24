@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import home_image from "../assets/images/home_page_img.jpeg";
 import styles from './Home.module.css'
 
@@ -12,7 +13,7 @@ const Home = () => {
           range of easy-care houseplants
         </p>
         <div className={styles.divBtn}>
-          <input className={styles.btn} type="button" value="Browse plants" />
+          <Link to="/shop" className={styles.btn}> Browse plants </Link>
         </div>
       </div>
       <img

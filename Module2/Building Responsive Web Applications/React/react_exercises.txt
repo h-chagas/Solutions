@@ -42,6 +42,20 @@ https://stackblitz.com/edit/react-exercise-useeffect-dependency-array?file=src%2
 Fetch external data on load:
 https://stackblitz.com/edit/react-example-fetch-external-data-on-load?file=src%2FApp.jsx
 
+Example of prop drilling (without useContext):
+https://stackblitz.com/edit/react-demo-todo-list-with-context?file=src%2FApp.jsx,src%2Fcomponents%2FTodoList.jsx,src%2Fcomponents%2FTodoItem.jsx,src%2Fstyle.css
+
+Setting up Context:
+https://stackblitz.com/edit/react-example-setting-up-context?file=src%2FApp.jsx
+
+To-do list with Context:
+https://stackblitz.com/edit/react-example-context?file=src%2FApp.jsx,src%2Fcomponents%2FTodoList.jsx,src%2Fcomponents%2FTodoItem.jsx,src%2Fcontext%2Ftodo-context.js
+
+Exercise Context:
+https://stackblitz.com/edit/react-exercise-using-context?file=src%2FApp.jsx
+
+How the exercise looks like:
+
 
 
 
