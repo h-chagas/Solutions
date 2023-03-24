@@ -17,3 +17,36 @@ https://stackblitz.com/edit/react-exercise-use-react-router-static-routing-r5cfl
 
 CSS Modules:
 https://stackblitz.com/edit/demo-css-modules-44ujdu?file=src%2FApp.jsx,src%2Fcomponents%2FMainContent.jsx,src%2Fcomponents%2FMainContent.module.css
+
+React Events:
+https://stackblitz.com/edit/react-example-events-in-jsx?devToolsHeight=33&file=src%2FApp.jsx
+
+Event handling:
+https://stackblitz.com/edit/react-exercise-event-handling?file=src%2FaddConfetti.js,src%2FApp.jsx
+
+The need for State:
+https://stackblitz.com/edit/react-demo-need-for-state-psbttp?devToolsHeight=33&file=src%2FApp.jsx
+
+State:
+https://stackblitz.com/edit/react-example-state-solves-the-problem?file=src%2FApp.jsx
+
+Power of two app:
+https://stackblitz.com/edit/react-exercise-powers-of-two-app?file=src%2FApp.jsx
+
+Inverse data flow:
+https://stackblitz.com/edit/react-exercise-inverse-data-flow-ftb3gb?file=src%2FApp.jsx,src%2Fcomponents%2FCounterDisplay.jsx,src%2Fcomponents%2FIncrementButton.jsx,src%2Fcomponents%2FResetButton.jsx
+
+UseEffect dependency array:
+https://stackblitz.com/edit/react-exercise-useeffect-dependency-array?file=src%2FApp.jsx,src%2FaddConfetti.js
+
+Fetch external data on load:
+https://stackblitz.com/edit/react-example-fetch-external-data-on-load?file=src%2FApp.jsx
+
+
+
+
+Exercise ready:
+https://github.com/qa-exercises/react-simple-shop/blob/main/src/App.js
+
+Extra API dogs:
+https://dog.ceo/api/breeds/image/random
